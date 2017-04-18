@@ -17,8 +17,6 @@ namespace TestDemo
             return calc;
         }
 
-
-
         [Test]
         public void TestMethod1()
         {
@@ -56,7 +54,7 @@ namespace TestDemo
             
             var ex = Assert.Throws<ArgumentException>(() => calc.Add(input));
             Assert.IsTrue(ex.Message.Contains("Input format is incorrect"));
-            Assert
+            
         }
 
         [Test]
